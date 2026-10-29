@@ -1,0 +1,307 @@
+:root {
+  --plum: #27132f;
+  --plum-soft: #3b2146;
+  --pink: #ed75bd;
+  --coral: #ff8d74;
+  --yellow: #f6d76f;
+  --leaf: #91c78a;
+  --paper: #fff8f3;
+  --ink: #33263a;
+  --muted: #958b97;
+  --rule: #eae0e5;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #201128;
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.garden-page {
+  display: grid;
+  grid-template-columns: 1.12fr 0.88fr;
+  min-height: 100vh;
+}
+
+.night-garden,
+.login-side {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.night-garden {
+  flex-direction: column;
+  padding: 36px 6.5vw 29px;
+  background:
+    radial-gradient(ellipse at 75% 65%, #452051 0, transparent 42%),
+    radial-gradient(ellipse at 20% 5%, #49284d 0, transparent 38%),
+    var(--plum);
+  color: #fff7f5;
+}
+
+.brand {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+}
+
+.brand-seal {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border: 1px solid #f6d76f;
+  border-radius: 50%;
+  color: var(--yellow);
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.garden-copy {
+  position: relative;
+  z-index: 2;
+  margin: auto 0 235px;
+  padding-top: 72px;
+}
+
+.overline,
+.form-kicker {
+  margin: 0 0 18px;
+  color: var(--yellow);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+
+h1,
+h2 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 500;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(48px, 6vw, 78px);
+  letter-spacing: -0.055em;
+  line-height: 0.99;
+}
+
+h1 span { color: var(--pink); }
+
+.garden-note {
+  margin: 22px 0 0;
+  color: #cbbdce;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.garden-art {
+  position: absolute;
+  right: 1%;
+  bottom: 3%;
+  z-index: 1;
+  width: min(54%, 480px);
+  height: auto;
+  filter: drop-shadow(0 14px 35px #12091788);
+}
+
+.moon {
+  position: absolute;
+  top: 16%;
+  right: 13%;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: var(--yellow);
+  box-shadow: 0 0 38px #f6d76f55;
+}
+
+.spark {
+  position: absolute;
+  z-index: 1;
+  color: var(--pink);
+}
+
+.spark-one { top: 27%; right: 32%; font-size: 22px; }
+.spark-two { top: 13%; left: 38%; color: var(--yellow); font-size: 18px; }
+
+.garden-caption {
+  position: relative;
+  z-index: 3;
+  margin: 0;
+  color: #c5b7c8;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+
+.garden-caption span { padding: 0 7px; color: var(--coral); }
+
+.login-side {
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  background: #f8d9e8;
+}
+
+.login-panel {
+  position: relative;
+  z-index: 2;
+  width: min(100%, 390px);
+  padding: 46px 43px 38px;
+  border: 1px solid #fffdf9;
+  border-radius: 3px 34px 3px 34px;
+  background: var(--paper);
+  box-shadow: 0 24px 60px #6d315229;
+}
+
+.little-flower {
+  display: grid;
+  width: 43px;
+  height: 43px;
+  place-items: center;
+  margin-bottom: 26px;
+  border-radius: 12px 50% 50%;
+  background: #f6d76f;
+  color: #843f78;
+  font-size: 23px;
+  transform: rotate(-8deg);
+}
+
+.form-kicker {
+  margin-bottom: 12px;
+  color: #a04e88;
+}
+
+h2 {
+  margin: 0;
+  color: var(--plum);
+  font-size: clamp(36px, 4vw, 48px);
+  letter-spacing: -0.04em;
+  line-height: 1.04;
+}
+
+.form-intro {
+  margin: 14px 0 31px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+form { display: grid; }
+
+label {
+  margin: 0 0 8px;
+  color: #59495d;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+}
+
+input {
+  width: 100%;
+  height: 49px;
+  margin-bottom: 19px;
+  padding: 0 14px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  outline: none;
+  background: #fffdfa;
+  color: var(--ink);
+  font: inherit;
+  font-size: 12px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input::placeholder { color: #b2a8b2; }
+input:focus { border-color: #b06b9b; box-shadow: 0 0 0 3px #ed75bd22; }
+
+button,
+.logout-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 51px;
+  margin-top: 4px;
+  padding: 0 17px;
+  border: 0;
+  border-radius: 3px 15px 3px 15px;
+  background: var(--plum);
+  color: #fff8f3;
+  cursor: pointer;
+  font: 500 11px 'DM Sans', sans-serif;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+}
+
+button:hover,
+.logout-button:hover { transform: translateY(-1px); background: #4c2758; }
+button span,
+.logout-button span { color: var(--yellow); font-size: 18px; }
+
+.form-footnote {
+  margin: 24px 0 0;
+  color: #a59aa4;
+  text-align: center;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.message {
+  margin: -12px 0 20px;
+  padding: 10px 12px;
+  border-left: 3px solid var(--coral);
+  background: #fff0ec;
+  color: #984e51;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.welcome-panel .form-intro { margin-bottom: 28px; }
+
+.petal {
+  position: absolute;
+  width: 70px;
+  height: 110px;
+  border-radius: 80% 10% 80% 10%;
+  background: #ed75bd55;
+  transform: rotate(32deg);
+}
+
+.petal-a { right: -24px; top: 8%; }
+.petal-b { left: -34px; bottom: 7%; background: #f6d76f66; transform: rotate(74deg) scale(0.75); }
+
+@media (max-width: 850px) {
+  .garden-page { grid-template-columns: 1fr; }
+  .night-garden { min-height: 520px; padding: 26px 30px 24px; }
+  .garden-copy { margin: auto 0 215px; padding-top: 58px; }
+  .garden-copy h1 { font-size: clamp(48px, 10vw, 72px); }
+  .garden-art { right: 2%; bottom: 3%; width: min(47%, 330px); }
+  .moon { top: 12%; right: 12%; width: 58px; height: 58px; }
+  .login-side { min-height: 570px; padding: 42px 24px; }
+}
+
+@media (max-width: 480px) {
+  .night-garden { min-height: 460px; padding: 22px; }
+  .garden-copy { margin-bottom: 190px; }
+  .garden-copy h1 { font-size: 49px; }
+  .garden-art { right: -3%; bottom: 1%; width: 56%; }
+  .garden-note { max-width: 200px; font-size: 12px; }
+  .login-side { min-height: 530px; padding: 30px 18px; }
+  .login-panel { padding: 36px 27px 31px; }
+}

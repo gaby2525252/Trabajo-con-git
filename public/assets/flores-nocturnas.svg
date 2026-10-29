@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 590" fill="none">
+  <defs>
+    <radialGradient id="pink" cx="0" cy="0" r="1" gradientTransform="matrix(0 160 -150 0 220 185)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB4DB"/><stop offset="1" stop-color="#E94B9E"/>
+    </radialGradient>
+    <radialGradient id="orange" cx="0" cy="0" r="1" gradientTransform="matrix(0 95 -90 0 394 285)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFC2A0"/><stop offset="1" stop-color="#F76E61"/>
+    </radialGradient>
+    <radialGradient id="yellow" cx="0" cy="0" r="1" gradientTransform="matrix(0 65 -65 0 145 350)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0A0"/><stop offset="1" stop-color="#F5C950"/>
+    </radialGradient>
+  </defs>
+  <path d="M250 214c-16 93-2 194-39 310M386 301c-41 58-105 129-169 202M149 362c17 57 48 107 83 141" stroke="#83C77D" stroke-linecap="round" stroke-width="8"/>
+  <path d="M212 417c-83-41-122-14-131 20 56 17 99 7 131-20ZM270 337c73-60 129-44 143-12-46 34-93 42-143 12ZM199 497c-55-51-100-40-119-12 37 32 77 38 119 12Z" fill="#68A96E" stroke="#A2DB8D" stroke-width="3"/>
+  <g transform="translate(215 190)">
+    <ellipse cy="-86" rx="43" ry="87" fill="url(#pink)"/>
+    <ellipse cy="-86" rx="43" ry="87" fill="url(#pink)" transform="rotate(45)"/>
+    <ellipse cy="-86" rx="43" ry="87" fill="url(#pink)" transform="rotate(90)"/>
+    <ellipse cy="-86" rx="43" ry="87" fill="url(#pink)" transform="rotate(135)"/>
+    <ellipse cy="-86" rx="43" ry="87" fill="url(#pink)" transform="rotate(180)"/>
+    <ellipse cy="-86" rx="43" ry="87" fill="url(#pink)" transform="rotate(225)"/>
+    <ellipse cy="-86" rx="43" ry="87" fill="url(#pink)" transform="rotate(270)"/>
+    <ellipse cy="-86" rx="43" ry="87" fill="url(#pink)" transform="rotate(315)"/>
+    <circle r="38" fill="#F7D365"/><circle r="16" fill="#9E4B5E"/>
+  </g>
+  <g transform="translate(395 287) scale(.66)">
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#orange)"/>
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#orange)" transform="rotate(60)"/>
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#orange)" transform="rotate(120)"/>
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#orange)" transform="rotate(180)"/>
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#orange)" transform="rotate(240)"/>
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#orange)" transform="rotate(300)"/>
+    <circle r="30" fill="#F6D76F"/><circle r="12" fill="#A34A58"/>
+  </g>
+  <g transform="translate(143 356) scale(.46)">
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#yellow)"/>
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#yellow)" transform="rotate(60)"/>
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#yellow)" transform="rotate(120)"/>
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#yellow)" transform="rotate(180)"/>
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#yellow)" transform="rotate(240)"/>
+    <ellipse cy="-72" rx="37" ry="73" fill="url(#yellow)" transform="rotate(300)"/>
+    <circle r="30" fill="#E89368"/><circle r="12" fill="#8F4D57"/>
+  </g>
+  <circle cx="73" cy="155" r="4" fill="#F6D76F"/><circle cx="471" cy="145" r="5" fill="#ED75BD"/><circle cx="465" cy="420" r="3" fill="#F6D76F"/><path d="m106 251 5 12 12 5-12 5-5 12-5-12-12-5 12-5 5-12ZM470 203l4 10 10 4-10 4-4 10-4-10-10-4 10-4 4-10Z" fill="#F6D76F"/>
+</svg>
