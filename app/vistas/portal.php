@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff8e7">
-  <title>Domingo Botánico · Bienvenida</title>
+  <title>Danna Gabriela Suarez · Bienvenida</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 <body>
   <main class="page">
     <header class="site-header">
-      <a class="wordmark" href="index.php" aria-label="Domingo Botánico, inicio"><span class="wordmark-icon">d</span> domingo botánico</a>
+      <a class="wordmark" href="index.php" aria-label="Danna Gabriela Suarez, inicio"><span class="wordmark-icon">d</span> Danna Gabriela Suarez</a>
       <p class="header-note">un lugar para florecer a tu ritmo</p>
     </header>
     <section class="hero">
@@ -41,7 +41,7 @@
         <span class="orbit-dot"></span>
       </div>
     </section>
-    <footer class="site-footer"><span>DOMINGO BOTÁNICO</span><span>CRECER TAMBIÉN ES DESCANSAR</span></footer>
+    <footer class="site-footer"><span>Danna Gabriela Suarez</span><span>CRECER TAMBIÉN ES DESCANSAR</span></footer>
   </main>
 </body>
 </html>
